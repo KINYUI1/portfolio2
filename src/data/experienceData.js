@@ -14,7 +14,23 @@ const experience = [
         organization:'Verizon Telecomunication',
         location:'Irving, TX',
         duration:'2024-PRESENT',
-        description:`Spearheading the development of responsive and scalable web applications with Java and the MERN stack in an agile environment, I achieved a 25% improvement in user engagement. Implementing robust backend solutions utilizing Java, Spring Boot, Express.js, and Node.js, I focused on detail-oriented design of RESTful APIs, resulting in a 20% reduction in load times and enhancing overall performance. Additionally, successful implementation of authentication and authorization features using software engineering best practices increased user data security by 30% while maintaining CI/CD pipeline integrity. Utilizing MongoDB and PostgreSQL databases optimized data storage and processing, resulting in a 15% improvement in data handling efficiency and ensuring optimal performance. Integration of third-party packages and libraries, along with tools such as Redux for state management in React applications, enhanced the overall stability and maintainability of the web ecosystem by 20%. Collaboration with cross-functional teams including designers, developers, trainers, and assistant trainers ensured timely delivery of high-quality features, contributing to the success of my training at Per Scholas improving commitment and communication skills among scrum team members.`,
+        description:`>Gained hands-on experience navigating and managing Linux environments for scripting, automation, and remote server tasks. Comfortable with command-line tools, permissions, and process management. 
+
+>Wrote Python scripts to automate repetitive tasks, parse data, and streamline system operations. Familiar with standard libraries and writing modular, readable code.
+ 
+>Worked with Oracle Database to manage, query, and manipulate large datasets. Gained experience with data modeling, stored procedures, and performance tuning basics.
+ 
+>Used Oracle SQL Developer for database development and analysis. Performed complex SQL queries, data extraction, and schema design tasks in real-world scenarios.
+
+>Utilized DBeaver as a cross-platform SQL client for interacting with multiple databases. Conducted queries, managed tables, and visualized relationships in a user-friendly environment.
+ 
+>Used PuTTY to establish secure SSH connections to remote servers for system access, configuration, and log analysis. Familiar with tunneling and session management.
+ 
+>Developed Perl scripts to process text files, handle log parsing, and automate legacy system tasks. Experienced with regular expressions and file I/O operations.
+ 
+>Created Bash scripts to automate system-level operations such as backups, environment setup, and scheduled jobs via cron. Emphasized readability and reusability.
+ 
+>Built object-oriented applications using Java. Gained experience with core Java syntax, classes, exception handling, and basic file I/O. Comfortable with compiling, testing, and debugging.`,
         id:nanoid()
     },
     // {

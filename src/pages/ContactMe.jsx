@@ -63,13 +63,13 @@ const sendEmail = (e) => {
               <CiMail />
             </Link>
           </div>
-          <div className="w-12 h-12 bg-stone-700 flex justify-center items-center rounded-full hover:bg-yellow-100 hover:text-stone-700 hover:scale-110 ease-in duration-300 text-slate-50">
+          {/* <div className="w-12 h-12 bg-stone-700 flex justify-center items-center rounded-full hover:bg-yellow-100 hover:text-stone-700 hover:scale-110 ease-in duration-300 text-slate-50">
             <a
               href='./Clement Kinyui Ndimuangu Resume.docx' download='clement kinyui ndimuangu resume.docx'
             >
               <FaDownload />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className='shadow-2xl p-2 col-span-2 rounded-xl 2xl:h-5/6'>

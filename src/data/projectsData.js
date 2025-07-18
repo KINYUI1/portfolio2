@@ -1,32 +1,32 @@
 import unsplashImages from '../images/unsplash-images.png'
-import jobsApi from '../images/jobs-api.png'
+import reel_List from '../images/Reel_List.png'
 import guessingGame from '../images/numberGuessingGame.png'
 import eCommerceApi from '../images/eCommerceApi.png'
 import { nanoid } from 'nanoid' 
 const projects = [
     {
-        name:'Unsplashed Image Search',
-        overview:'This is a react Js application build with react js and the unsplash API. users can go and search images base on keywords and view images related to those key words.',
-        technologies:['@tanstack/react query','reactJS','unsplash API','axios','react-dom','react icons',],
-        github:'https://github.com/KINYUI1/Unsplash-image-search',
+        name:'ClassPilot',
+        overview:'This is a full stack class management application build with react js, node js, express js and mongo db. This project was aimed at serving the academic environment for both the teachers and the the students. I handled the scaffolding, the built of the backend and the set up of the run environment with docker for the entire project.',
+        technologies:['Material UI','reactJS','Node JS','axios','react-dom','Express JS','Mongo DB', 'Bcrypt', 'Cors', 'Mongoose ODM', 'DotENV'],
+        github:'https://github.com/E-DISTRICT/Class-Management',
         deployed:'https://usplash-image-search.netlify.app/',
         image:unsplashImages,
         id:nanoid()
     },
     {
-        name:'jobs api',
-        overview:'this is a node js app build with the Express js framework. it has routes for authentication and for jobs querying.users are able to register,login and logout. To get job information user can hit the get all jobs route and once authenticated can query jobs in which the user is the author of the job. users can also get single jobs in which they are the author, delete jobs in which they are the author and update jobs in which they are the author. there is also an admin role in which the admin has access to all the jobs in the database and can perform full CRUD on all of them',
-        technologies:['becryptjs','cors','dotenv','express','jsonwebtoken','express-async-errors','express-rate-limit','helmet','http-status-codes','mongoose','swagger-ui-express','xss-clean','yamljs'],
-        github:'https://github.com/KINYUI1/jobs-api',
+        name:'Reel List ',
+        overview:'Reel List is a simple and user-friendly movie tracking app where users can search for movies and create their own personal watchlist. Built with React and styled using Tailwind CSS, this app leverages the TMDB API to fetch trending movies and search results. I contributed on the logical aspect of the code making sure all the components render correctly',
+        technologies:['React JS', 'Tailwind CSS', 'Vite', 'TMDB API'],
+        github:'https://github.com/devs-cr/Reel-List',
         deployed:'https://jobs-api-8p9p.onrender.com/api-docs/',
-        image:jobsApi,
+        image:reel_List,
         id:nanoid()
     },
     {
-        name:'e commerce api',
-        overview:'This application is constructed using the Express.js framework for Node.js. It incorporates authentication routes,products routes,order routes,review routes and user routes. Users can register, log in, and log out. To access products data, users can utilize the "get all products" route. Authenticated users can create products, get individual products, delete products they authored, and update products they authored.This is true for all the other routes. Additionally, an admin role grants full access to all database jobs, allowing the admin to perform complete CRUD operations on them..',
-        technologies:['becryptjs','cors','dotenv','express','jsonwebtoken','express-async-errors','express-rate-limit','helmet','http-status-codes','mongoose','cookie-Parser','validator','xss-clean','yamljs','express-fileupload','express-mongo-sanitize','morgan'],
-        github:'https://github.com/KINYUI1/e-commerce-api',
+        name:'Promos & Perks API',
+        overview:'This project was developed to showcase technical proficiency in Spring Security, utilizing JWT, authentication/authorization, and BCrypt',
+        technologies:['Bcrypt', 'Spring Boot', 'Spring Security', 'JWT', 'Java', 'Maven'],
+        github:'https://github.com/Promo-Pros/promos-perks-api',
         image:eCommerceApi,
         deployed:"https://e-commerce-api-2.onrender.com/",
         id:nanoid()
