@@ -1,5 +1,7 @@
-import unsplashImages from '../images/unsplash-images.png'
+import inventoryBackend from '../images/inventory backend.png'
+import inventoryFrontend from '../images/inventory front end.png'
 import reel_List from '../images/Reel_List.png'
+import classpilot from '../images/classpilot.png'
 import guessingGame from '../images/numberGuessingGame.png'
 import eCommerceApi from '../images/eCommerceApi.png'
 import { nanoid } from 'nanoid' 
@@ -10,7 +12,7 @@ const projects = [
         technologies:['Material UI','reactJS','Node JS','axios','react-dom','Express JS','Mongo DB', 'Bcrypt', 'Cors', 'Mongoose ODM', 'DotENV'],
         github:'https://github.com/E-DISTRICT/Class-Management',
         deployed:'https://usplash-image-search.netlify.app/',
-        image:unsplashImages,
+        image:classpilot,
         id:nanoid()
     },
     {
@@ -32,12 +34,20 @@ const projects = [
         id:nanoid()
     },
     {
-        name:'Number Guessing game',
-        overview:'This is a game build with HTML 5, CSS3 and vanilla JavaScript. it starts by generating a random number value between and and 50 giving you five attempts in the first level to figure the value. there is an input field for you to input your answer and check. it response with the right directive telling you if your answer is above the random value, less than or you have the correct answer. if after five attempts you cant figure out the right answer you loose a life and you have a total of three lives. if you if you get the answer correctly you get a correct value increase and having three correct values you move to the next level and the number of attempts decrease by one with the same rules applying.You loose the game if you fail three times in a single level which is 15 attempts in level 1. there are sound effects depending on what action that you take and background music.something very significant at the upper left angle of the screen',
+        name:'Inventory App Front End',
+        overview:'This is an inventory app front end which i built to demonstrate my skills with front end technologies. It has features like view all inventory, view a single inventory, adding to inventory, removing from inventory.',
         technologies:['HTML 5','CSS 3','JavaScript'],
-        github:'https://github.com/KINYUI1/MOD1-PROJECT',
-        deployed:'https://kinyui1.github.io/MOD1-PROJECT/',
-        image:guessingGame,
+        github:'https://github.com/Clement-Ndimuangu/Inventory-app-frontend-react',
+        deployed:'https://github.com/Clement-Ndimuangu/Inventory-app-frontend-react',
+        image:inventoryFrontend,
+        id:nanoid()
+    },{
+        name:'Inventory App Back End',
+        overview:'This is an inventory app Back end which i built to demonstrate my skills with Back end technologies. It has routs like view all inventory, view a single inventory, adding to inventory, removing from inventory.',
+        technologies:['Java','Docker','spring boot'],
+        github:'https://github.com/Clement-Ndimuangu/Inventory-app-backend-java',
+        deployed:'https://github.com/Clement-Ndimuangu/Inventory-app-backend-java',
+        image:inventoryBackend,
         id:nanoid()
     },
 ]

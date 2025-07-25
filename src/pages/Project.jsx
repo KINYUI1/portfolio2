@@ -16,7 +16,7 @@ const Project = () => {
           <h2 className='text-5xl capitalize my-4'>overview</h2>
           <p className='my-4'>{overview}</p>
           <div className='flex gap-4'>
-            <a href={deployed} target='blank'><button className='uppercase bg-slate-500 px-2 rounded-md text-2xl'>live</button></a>
+            {/* <a href={deployed} target='blank'><button className='uppercase bg-slate-500 px-2 rounded-md text-2xl'>live</button></a> */}
             <a href={github} target='blank'><button className='uppercase bg-slate-500 px-2 rounded-md text-2xl'>gitHub</button></a>
           </div>
         </div>
