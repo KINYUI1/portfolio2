@@ -52,7 +52,7 @@ const projects = [
     },
     {
         name:'Inventory App Front End (Group Project)',
-        overview:'This is an inventory app front end which we built to demonstrate our skills with front end technologies. It has features like view all inventory, view a single inventory, adding to inventory, removing from inventory. I contributed by building the scaffolding with Vite, Routes with React Router and ',
+        overview:'This is an inventory app front end which we built to demonstrate our skills with front end technologies. It has features like view all inventory, view a single inventory, adding to inventory, removing from inventory. I contributed by building the scaffolding with Vite, Routes with React Router and added design and built the all inventory page and the single item page',
         technologies:['HTML 5','CSS 3','JavaScript', 'Reactjs'],
         github:'https://github.com/irving-99/inventory-app?tab=readme-ov-file',
         deployed:'https://github.com/irving-99/inventory-app?tab=readme-ov-file',
