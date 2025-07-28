@@ -1,8 +1,8 @@
 import inventoryBackend from '../images/inventory backend.png'
 import inventoryFrontend from '../images/inventory front end.png'
+import inventoryFrontendGroup from '../images/irving99.png'
 import reel_List from '../images/Reel_List.png'
 import classpilot from '../images/classpilot.png'
-import guessingGame from '../images/numberGuessingGame.png'
 import eCommerceApi from '../images/eCommerceApi.png'
 import { nanoid } from 'nanoid' 
 const projects = [
@@ -26,7 +26,7 @@ const projects = [
     },
     {
         name:'Promos & Perks API',
-        overview:'This project was developed to showcase technical proficiency in Spring Security, utilizing JWT, authentication/authorization, and BCrypt',
+        overview:'This project was developed to showcase technical proficiency in Spring Security, utilizing JWT, authentication/authorization, and BCrypt. I personally contributed to the project by building up the project scaffolding using the spring initializr website, outline the different project layers separating the controller, service and the repository layers. I also added the db connection using the spring data jpa.',
         technologies:['Bcrypt', 'Spring Boot', 'Spring Security', 'JWT', 'Java', 'Maven'],
         github:'https://github.com/Promo-Pros/promos-perks-api',
         image:eCommerceApi,
@@ -50,6 +50,15 @@ const projects = [
         image:inventoryBackend,
         id:nanoid()
     },
+    ,{
+        name:'Inventory App Front End (Group Project)',
+        overview:'This is an inventory app front end which we built to demonstrate our skills with front end technologies. It has features like view all inventory, view a single inventory, adding to inventory, removing from inventory. I contributed by building the scaffolding with Vite, Routes with React Router and ',
+        technologies:['HTML 5','CSS 3','JavaScript', 'Reactjs'],
+        github:'https://github.com/irving-99/inventory-app?tab=readme-ov-file',
+        deployed:'https://github.com/irving-99/inventory-app?tab=readme-ov-file',
+        image:inventoryFrontendGroup,
+        id:nanoid()
+    }
 ]
 
 export default projects
