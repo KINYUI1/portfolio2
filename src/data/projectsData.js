@@ -1,6 +1,6 @@
 import inventoryBackend from '../images/inventory backend.png'
 import inventoryFrontend from '../images/inventory front end.png'
-import inventoryFrontendGroup from '../images/irving99.png'
+import inventoryFrontendGroup from '../images/Irving99.png'
 import reel_List from '../images/Reel_List.png'
 import classpilot from '../images/classpilot.png'
 import eCommerceApi from '../images/eCommerceApi.png'
